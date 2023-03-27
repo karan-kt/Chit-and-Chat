@@ -1,0 +1,15 @@
+.chatBox {
+  display: "flex";
+  flex-direction: "column";
+  overflow-y: scroll;
+  scrollbar-width: "none";
+}
+
+.chatBox::-webkit-scrollbar {
+  display: none;
+}
+
+.chatBox {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,8 @@
+.chatstack::-webkit-scrollbar {
+  display: none;
+}
+
+.chatstack {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
